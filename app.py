@@ -23,7 +23,7 @@ def homepage():
     return render_template("home.html")
 
 def create_figure():
-    fig=figure()
+    fig=Figure()
     axis=fig.add_subplot(1,1,1)
     xs=range(100)
     ys=[random.randint(1,50) for x in xs]
