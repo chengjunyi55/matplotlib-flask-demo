@@ -38,5 +38,5 @@ def create_figure():
     return fig
 
 if __name__=="__main__":
-    port = port = int(os.environ.get('PORT', 6000))
+    port = port = int(os.environ.get('PORT', 15000))
     app.run(debug=True, port=port)
